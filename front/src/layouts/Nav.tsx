@@ -2,6 +2,8 @@ import { CommentOutlined, GlobalOutlined, HomeOutlined, InfoCircleOutlined, Yout
 import { Menu } from 'antd';
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+
+import Logo from "../assets/SU.PA_BIG.png"
 import './Nav.css'
 
 
