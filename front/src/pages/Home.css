@@ -1,8 +1,9 @@
 .content_container{
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    
 
 }

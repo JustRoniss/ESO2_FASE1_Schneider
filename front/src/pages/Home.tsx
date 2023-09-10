@@ -23,10 +23,10 @@ const headerStyle: React.CSSProperties = {
   };
   
   const contentStyle: React.CSSProperties = {
-    fontSize: '28px',
+    fontSize: '20px',
     textAlign: 'center',
     minHeight: 120,
-    lineHeight: '120px',
+    lineHeight: '60px',
     color: 'black',
     // backgroundColor: '#d9ffcc',
     backgroundColor: 'white',
@@ -43,7 +43,7 @@ const headerStyle: React.CSSProperties = {
 
 
   const contents: string[] = [
-    "Somos uma comunidade de pessoas que se preocupam com o futuro do nosso planeta e das futuras gerações",
+    "Comunidade de funcionários da Schneider que sem importam com o meio-ambiente ",
     "Aqui você encontrará conteúdos que lhe ajudarão a criar hábitos mais sustentáveis no seu dia-a-dia",
     "Visite a página comunidade e veja como os membros da rede têm se tornado mais sustentáveis e ecológicos. Aproveite também para compartilhar como você tem feito sua parte em prol de nosso planeta"
   ]
@@ -71,7 +71,6 @@ const Home = () => {
           <Space direction="vertical" style={{ width: '70%'}} size={[0, 48]}>
               <Layout>
               <Header style={headerStyle}>
-              
                 Comunidade Schneider Eco.     
               </Header>
               <Content style={contentStyle}>
