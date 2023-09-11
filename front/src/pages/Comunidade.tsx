@@ -10,9 +10,14 @@ import {
 } from "antd";
 import { Option } from "antd/es/mentions";
 import TextArea from "antd/es/input/TextArea";
+import axios from 'axios';
+
+
 import "./Comunidade.css"
 import CommunityList from "../components/CommunityList";
-import axios from 'axios';
+import { IPublicacao } from "../interfaces/IPublicacao";
+
+
 
 
 
@@ -34,18 +39,26 @@ const onChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
   console.log('Change:', e.target.value);
 };
 
-const onFinish = (values: any) => {
-  // axios.post('', data)
-  // .then(function (response) {
-
-  //   console.log('Resposta de sucesso:', response.data);
-  // })
-  // .catch(function (error) {
-
-  //   console.error('Erro:', error);
-  // });
-
-};
+const onFinish = (values: IPublicacao	) => {
+  axios({
+    method: "post",
+    url: "http://localhost:8080/publicacoes/criar",
+    data: {
+      user: values.user,
+      comment: values.comment,
+      categories: values.categories,
+      fileName: values.fileName,
+      midiaType: values.midiaType,
+      file: values.dados    
+    },
+  })
+    .then((response) => {
+      console.log(response)
+    })
+    .catch((error) => {
+      console.log(error)
+    })
+}; 
 
 const Comunidade = () => {
   return (
@@ -62,7 +75,7 @@ const Comunidade = () => {
         </Form.Item>
 
         <Form.Item
-        name="nome"
+        name="user"
         label="Nome"
         rules={[
           {

@@ -10,7 +10,7 @@ services:
       # MYSQL_USER: your_database_user
       # MYSQL_PASSWORD: your_database_password
     ports:
-      - "3308:3306"
+      - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
 
