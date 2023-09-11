@@ -12,6 +12,7 @@ import { Option } from "antd/es/mentions";
 import TextArea from "antd/es/input/TextArea";
 import "./Comunidade.css"
 import CommunityList from "../components/CommunityList";
+import axios from 'axios';
 
 
 
@@ -34,7 +35,16 @@ const onChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
 };
 
 const onFinish = (values: any) => {
-  console.log("Received values of form: ", values);
+  // axios.post('', data)
+  // .then(function (response) {
+
+  //   console.log('Resposta de sucesso:', response.data);
+  // })
+  // .catch(function (error) {
+
+  //   console.error('Erro:', error);
+  // });
+
 };
 
 const Comunidade = () => {

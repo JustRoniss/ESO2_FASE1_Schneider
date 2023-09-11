@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: shneider_eco
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: EcoComunnity
+      # MYSQL_USER: your_database_user
+      # MYSQL_PASSWORD: your_database_password
+    ports:
+      - "3308:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
+
+
