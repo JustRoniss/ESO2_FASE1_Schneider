@@ -5,8 +5,10 @@ import java.util.Date;
 import java.util.List;
 
 import jakarta.persistence.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Entity
+@CrossOrigin
 public class Publicacao {
 
     @Id
@@ -24,11 +26,9 @@ public class Publicacao {
 
     private LocalDateTime creationDate;
 
-    private String fileName; 
-    private String midiaType;    // Tipo de mídia (por exemplo, "image/png")
-
     @Lob // Armazenar dados binários grandes - imagens
-    private byte[] dados; // Os dados binários da foto
+    @Column(length = 10000)
+    private String dados; // Os dados binários da foto
 
     public Long getId(){
         return id;
@@ -78,11 +78,11 @@ public class Publicacao {
 //        this.tipoMidia = tipoMidia;
 //    }
 
-    public byte[] getDados() {
+    public String getDados() {
         return dados;
     }
 
-    public void setDados(byte[] dados) {
+    public void setDados(String dados) {
         this.dados = dados;
     }
 

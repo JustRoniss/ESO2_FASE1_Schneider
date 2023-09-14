@@ -1,0 +1,15 @@
+
+  
+  .image-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .responsive-image {
+    width: 800px;
+    height: auto;
+  }
+
+  .card-container{
+    height: 400px ;
+  }

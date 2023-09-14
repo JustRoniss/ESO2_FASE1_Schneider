@@ -4,12 +4,12 @@ import { Avatar, List, Space } from 'antd';
 
 const data = Array.from({ length: 23 }).map((_, i) => ({
   href: 'https://ant.design',
-  title: `Membro ${i}`,
+  title: `Funcionário ${i}`,
   avatar: `https://xsgames.co/randomusers/avatar.php?g=pixel&key=${i}`,
   description:
     'Botanica, Meio-ambiente',
   content:
-    'Ajudei a ficar tranquilao',
+    'Reciclei o lixo corretamente',
 }));
 
 const IconText = ({ icon, text }: { icon: React.FC; text: string }) => (
@@ -30,11 +30,7 @@ const CommunityList: React.FC = () => (
       pageSize: 3,
     }}
     dataSource={data}
-    footer={
-      <div>
-        <b>ant design</b> footer part
-      </div>
-    }
+
     renderItem={(item) => (
       <List.Item
         key={item.title}

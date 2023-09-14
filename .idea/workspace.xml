@@ -1,24 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d48a14-9d07-4d1c-bae2-4a44d0d62c3c" name="Changes" comment="" />
+    <list default="true" id="d0d48a14-9d07-4d1c-bae2-4a44d0d62c3c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/Back-Eco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/Back-Eco/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/Back-Eco/src/main/java/com/example/backeco/BackEcoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/Back-Eco/src/main/java/com/example/backeco/BackEcoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/Back-Eco/src/main/java/com/example/backeco/controllers/PublicacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/Back-Eco/src/main/java/com/example/backeco/controllers/PublicacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/Back-Eco/src/main/java/com/example/backeco/model/Publicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/Back-Eco/src/main/java/com/example/backeco/model/Publicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/Back-Eco/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/Back-Eco/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/interfaces/IPublicacao.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/interfaces/IPublicacao.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/Comunidade.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/Comunidade.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/Sustentabilidade.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/Sustentabilidade.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2V2plaGHcOAZ3Hof4Y9cMoMkDPZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ronis/Facul/FIAP_ESO2_Schnaider/back/Back-Eco&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,6 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1694044181835</updated>
       <workItem from="1694044183205" duration="65000" />
+      <workItem from="1694557801727" duration="372000" />
+      <workItem from="1694643216749" duration="602000" />
     </task>
     <servers />
   </component>
